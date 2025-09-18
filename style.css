@@ -1,0 +1,65 @@
+body {
+     background-color: rgb(253, 251, 251);
+}
+main {
+    padding-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: blue;
+}
+
+h1 {
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cabecalho {
+    background-color: rgb(164, 23, 23);
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    display: flex;
+    width: auto;
+    box-shadow: 0px 5px
+}
+
+#escudo-time {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 60px;
+}
+
+#menu {
+    margin-left: 100px;
+    display: flex;
+    gap: 30px;
+}
+
+
+#hist {
+    margin-top: 60px
+}
+
+#rodape {
+    background-color: blue;
+    width: auto;
+    height: 60px;
+    
+}
+
+.paragrafo {
+    scrollbar-color: pink;
+    margin: 20px 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
