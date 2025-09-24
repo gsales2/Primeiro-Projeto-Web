@@ -1,120 +1,132 @@
 body {
-     background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 main {
-    padding-top: 100px;
+  padding-top: 80px;
 }
 
 h1 {
-    margin-left: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #cabecalho {
-    background-color: rgb(164, 23, 23);
-    height: 40px;
-    padding: 20px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    align-items: center;
-    display: flex;
-    width: auto;
-    box-shadow: 0px 5px;
-    z-index: 3;
+  background-color: rgb(164, 23, 23);
+  height: 40px;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  display: flex;
+  width: auto;
+  box-shadow: 0px 5px;
+  z-index: 3;
 }
 
 #cabecalho a {
-    text-decoration: none;
-    color: aliceblue;
-    transition: 0.5s;
+  text-decoration: none;
+  color: aliceblue;
+  transition: 0.5s;
 }
 
 #cabecalho a:hover {
-    color: blue;
+  color: blue;
 }
 
 #escudo-time {
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-bottom: 20px;
-    width: 60px;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  width: 60px;
 }
 
 #menu {
-    margin-left: 100px;
-    display: flex;
-    gap: 30px;
+  margin-left: 100px;
+  display: flex;
+  gap: 30px;
 }
 
-
 #hist {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #rodape {
-    position: absolute;
-    color:white;
-    background-color: rgb(72, 71, 71);
-    left: 0;
-    width: 100%;
-    height: 100px;
-    
+  position: absolute;
+  color: white;
+  background-color: rgb(72, 71, 71);
+  left: 0;
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
 }
 
 #menu-rodape {
-    display: flex;
-    gap: 30px;
-    font-size: larger;
-    padding: 5px 40px;
+  display: flex;
+  gap: 30px;
+  font-size: larger;
+  padding: 5px 40px;
 }
-#menu-rodape h6{
-    display: flex;
-    
-}
-
-#menu-rodape a{
-    color: white;
-    text-decoration: none;
-    padding-top: 25px;
-    transition: 0.5s;
+#menu-rodape h6 {
+  display: flex;
 }
 
-#menu-rodape a:hover{
-    color: red;
+#menu-rodape a {
+  color: white;
+  text-decoration: none;
+  padding-top: 25px;
+  transition: 0.5s;
 }
 
-#time{
+#menu-rodape a:hover {
+  color: red;
+}
+
+#time {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
 
+#rogerio {
+    padding: 10px;
+    display: flex;
+    border: 0.5rem solid;
+}
+
 .paragrafo {
-    margin: 20px 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 20px 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .jogador {
-  position: relative;   /* container relativo para o texto ficar dentro */
+  position: relative;
   display: inline-block;
 }
 
 .jogador img {
   display: block;
-  width: 200px;         /* define um tamanho fixo ou responsivo */
+  width: 200px;
   border-radius: 20px;
 }
 
 .texto-sobreposto {
-    position: absolute; /* Posiciona o texto de forma absoluta dentro do container */
-  top: 30%;          /* Posiciona o texto no centro verticalmente */
-  left: 37%;         /* Posiciona o texto no centro horizontalmente */
-  transform: translate(-50%, -50%); /* Centraliza o texto de fato */
-  color: white;      /* Cor do texto */
-  background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo com transparência (opcional) */
-  padding: 10px;     /* Espaçamento interno do texto */
-  z-index: 2;        /* Garante que o texto fique por cima da imagem */
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: flex-start;
+  z-index: 2;
+}
+
+.foto_idolos {
+    width: 300px;
 }
