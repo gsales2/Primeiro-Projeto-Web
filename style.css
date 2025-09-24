@@ -148,3 +148,84 @@ h1 {
   margin: 5px 0;
 }
 
+.morumbi-info {
+    max-width: 800px;
+    margin: 120px auto 40px auto; /* compensa header fixo */
+    padding: 20px;
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.morumbi-info h1 {
+    text-align: center;
+    color: rgb(164, 23, 23);
+    margin-bottom: 20px;
+}
+
+.morumbi-img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.morumbi-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.morumbi-info ul li {
+    margin-bottom: 8px;
+}
+
+.titulos-container {
+    max-width: 800px;
+    margin: 00px auto 40px auto; /* compensa header fixo */
+    padding: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.titulos-container h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(164, 23, 23);
+    margin-bottom: 40px;
+}
+
+.titulo-card {
+    border: 2px solid #333;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.titulo-card h2 {
+    margin-bottom: 15px;
+    color: rgb(164, 23, 23);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-card h2 span {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.titulo-card ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.titulo-card ul li {
+    background-color: rgb(77, 73, 72, 0.5);
+}
+
+
